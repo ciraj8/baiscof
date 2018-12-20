@@ -1,0 +1,68 @@
+body{
+	margin:0;
+	padding: 0;
+
+}
+.container1{
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+
+}
+.vid{
+	position: absolute;
+	width: 100vw;
+}
+
+
+.box-shadow1{
+-webkit-box-shadow: 0px 8px 15px -6px rgba(102,93,102,1);
+-moz-box-shadow: 0px 8px 15px -6px rgba(102,93,102,1);
+box-shadow: 0px 8px 15px -6px rgba(102,93,102,1);}
+
+.login{
+position: absolute;
+/*top:calc(50vh-300px);
+left:calc(50vw-150px);*/
+top:230px;
+left: 500px;
+width: 300px;
+height: 300px;
+background: white;
+opacity:0.5;
+border-radius: 5px
+}
+ 
+ form{
+ 	margin: 50px 50px;
+ }
+
+input{
+	padding: 10px 0px;
+	margin-bottom: 10px;
+	background-color: black;
+	outline: none;
+	border: 0px;
+	width: 200px;
+	opacity:1;
+	z-index: 222;
+	;
+}
+.social{
+position: absolute;
+top:30px;
+left: 560px;
+}
+.socialicon:hover{
+color:blue;
+}
+.socialicon1:hover{
+color:red;
+}
+
+.socialicon3:hover{
+color:lightblue;
+}
+
+
+
